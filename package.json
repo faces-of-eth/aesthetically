@@ -1,13 +1,14 @@
 {
   "name": "aesthetically",
-  "version": "0.0.5",
+  "version": "0.0.5.1",
   "description": "A JavaScript module that makes text stylish.",
   "main": "dist/aesthetically.umd.js",
+  "types": "dist/aesthetically.d.ts",
   "exports": {
-    "browser": "dist/aesthetically.js",
+    "browser": "./dist/aesthetically.js",
     "node": {
-      "import": "dist/aesthetically.js",
-      "require": "dist/aesthetically.umd.js"
+      "import": "./dist/aesthetically.js",
+      "require": "./dist/aesthetically.umd.js"
     }
   },
   "scripts": {
