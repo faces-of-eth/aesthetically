@@ -3,7 +3,7 @@
   "version": "0.0.5.1",
   "description": "A JavaScript module that makes text stylish.",
   "main": "./dist/aesthetically.umd.js",
-  "types": "./dist/aesthetically.d.ts",
+  "types": "./typings/aesthetically/index.d.ts",
   "exports": {
     "browser": "./dist/aesthetically.js",
     "node": {
@@ -46,7 +46,8 @@
   "files": [
     "dist/aesthetically.js",
     "dist/aesthetically.umd.js",
-    "aesthetically.js"
+    "aesthetically.js",
+    "typings"
   ],
   "keywords": [
     "text",
